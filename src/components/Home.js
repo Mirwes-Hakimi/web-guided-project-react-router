@@ -7,7 +7,7 @@ export default function Home() {
   // 👉 STEP 5 - Build a click handler that will imperatively navigate us to /items-list
   const navigate = useNavigate();
   const routeToShop = () => {
-       navigate('items-list')
+       navigate('items-list')/// navigate connects the Button SHOP NOW to the items-list
   }
 
   return (
